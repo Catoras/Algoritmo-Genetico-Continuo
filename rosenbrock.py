@@ -1,6 +1,6 @@
 class Rosenbrock:
-    MIN_VALUE = -5.12
-    MAX_VALUE = 5.12
+    MIN_VALUE = -2.048
+    MAX_VALUE = 2.048
     def __init__(self):
         pass
     def fitness(self, cromosoma):

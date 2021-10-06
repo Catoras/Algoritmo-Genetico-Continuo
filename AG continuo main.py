@@ -6,10 +6,10 @@ import AGC
 
 def main():
     #f = sphere.Sphere()
-    #f = rosenbrock.Rosenbrock()
+    f = rosenbrock.Rosenbrock()
     #f = rastrigin.Rastrigin()
-    f = quartic.Quartic()
-    ag = AGC.AGC(128, 8 , 2000, 0.02, f, False)
+    #f = quartic.Quartic()
+    ag = AGC.AGC(64, 2 , 2000, 0.02, f, False)
     ag.run()
 
 if __name__ == '__main__':

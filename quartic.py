@@ -1,6 +1,6 @@
 class Quartic:
-    MIN_VALUE = -5.12
-    MAX_VALUE = 5.12
+    MIN_VALUE = -1.28
+    MAX_VALUE = 1.28
     def __init__(self):
         pass
     def fitness(self, cromosoma):
