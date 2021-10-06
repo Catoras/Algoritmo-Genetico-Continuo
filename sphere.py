@@ -5,6 +5,6 @@ class Sphere:
         pass
     def fitness(self, cromosoma):
         z = 0
-        for i in range(0,len(cromosoma)):
-            z += cromosoma[i]**2
+        for alelo in cromosoma:
+            z += alelo**2
         return z

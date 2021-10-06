@@ -4,7 +4,9 @@ class Quartic:
     def __init__(self):
         pass
     def fitness(self, cromosoma):
-        z = 0
-        for i in range(0,len(cromosoma)):
-            z += (i+1) * ((cromosoma[i])**4)
+        z = 0 
+        i = 1
+        for alelo in cromosoma:
+            z += (i) * ((alelo)**4)
+            i += 1
         return z
